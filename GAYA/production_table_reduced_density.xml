@@ -1,0 +1,40 @@
+<table name = "marcsman_pt" format = "CSV" file = "PT_marcsman_fritzoe.csv">
+	<variable name="stand" print_name="stand"/>
+	<variable name="schedule" print_name="schedule"/>
+	<variable name="period" print_name="period"/>
+	<variable name="area" print_name="area" decimals = "4"/>
+	<variable name="si" print_name="si"/>
+	<variable name="main_sp" print_name="main_sp"/>
+	<variable name="program_track" print_name="program_track"/>
+	<variable name="csl" print_name="csl_after" snapshot="after" decimals = "1"/>
+	<variable name="csl" print_name="csl_start" snapshot="start" decimals = "1"/>
+	<variable name="age" print_name="age" snapshot="after" decimals = "0"/>
+	<variable name="n" print_name="n" snapshot="after" decimals = "0"/>
+	<variable name="reg_n" print_name="reg_n" snapshot="after" decimals = "0"/>
+	<variable name="h" print_name="h" snapshot="after" decimals = "1"/>
+	<variable name="d" print_name="d" snapshot="after" decimals = "1"/>
+	<variable name="ba" print_name="ba" snapshot="after" decimals = "2"/>	
+	<variable name="vol" print_name="vol" snapshot="after" decimals = "2"/>	
+	<variable name="trID" print_name="trt" snapshot="treatment" decimals = "0"/>
+	<variable name="regID" print_name="reg" snapshot="treatment" decimals = "0"/>	
+	<variable name="net" print_name="net" snapshot="treatment" decimals = "2"/>			
+	<variable name="cost" print_name="cost" snapshot="treatment" decimals = "2"/>
+	<variable name="income" print_name="income" snapshot="treatment" decimals = "2"/>
+	<variable name="price_m3" print_name="price_m3" snapshot="treatment" decimals = "2"/>		
+	<variable name="costF_m3" print_name="costF_m3" snapshot="treatment" decimals = "2"/>
+	<variable name="costC_m3" print_name="costC_m3" snapshot="treatment" decimals = "2"/>		
+	<variable name="costT_m3" print_name="costT_m3" snapshot="treatment" decimals = "2"/>
+	<variable name="costR" print_name="costR" snapshot="treatment" decimals = "2"/>	
+	<variable name="n" print_name="n_trt" snapshot="treatment" decimals = "0"/>			
+	<variable name="ba" print_name="ba_trt" snapshot="treatment" decimals = "2"/>	
+	<variable name="vol" print_name="vol_trt" snapshot="treatment" decimals = "2"/>	
+	<variable name="vol_saw" print_name="vol_trt_saw" snapshot="treatment" decimals = "2"/>
+	<variable name="vol_pul" print_name="vol_trt_pul" snapshot="treatment" decimals = "2"/>
+	<variable name="vol" print_name="vol_trt_S" snapshot="treatment" species = "1" decimals = "2"/>	
+	<variable name="vol" print_name="vol_trt_P" snapshot="treatment" species = "2" decimals = "2"/>	
+	<variable name="vol" print_name="vol_trt_B" snapshot="treatment" species = "3" decimals = "2"/>	
+	<variable name="V.a1" print_name="V.a1" snapshot="before" decimals = "2"/>	
+	<variable name="reg_n" print_name="reg_n_trt" snapshot="treatment" decimals = "0"/>
+	<variable name="npv" print_name="npv"/>
+	<variable name="NPV" print_name="npv_cumulated" snapshot="end" decimals = "0"/>
+</table>

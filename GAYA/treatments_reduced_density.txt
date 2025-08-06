@@ -1,0 +1,85 @@
+# YOUNG GROWTH TENDING SPRUCE
+
+{NAME[1_tending_S_26]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(1)&si(26)&reg_n(1500:9999)&reg_hDom_1(0:9)]FORCE[&program_track(0)|reg_hDom_1(0:9)]
+PARAMETERS[leave_n(1300) sp_prop(0.95,0,0.05) add_remove_n(1000) extCost(-0.4)] TRIGGER[]}
+
+{NAME[2_tending_S_23]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(1)&si(23)&reg_n(1500:9999)&reg_hDom_1(0:9)]FORCE[&program_track(0)|reg_hDom_1(0.5:9)]
+PARAMETERS[leave_n(1300) sp_prop(0.95,0,0.05) add_remove_n(1000) extCost(-0.4)] TRIGGER[]}
+
+{NAME[3_tending_S_20]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(1)&si(20)&reg_n(1500:9999)&reg_hDom_1(0:9)]FORCE[&program_track(0)|reg_hDom_1(1:9)]
+PARAMETERS[leave_n(1300) sp_prop(0.95,0,0.05) add_remove_n(1000) extCost(-0.4)] TRIGGER[]}
+
+{NAME[4_tending_S_17]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(1)&si(17)&reg_n(1500:9999)&reg_hDom_1(0:9)]FORCE[&program_track(0)|reg_hDom_1(1.5:9)]
+PARAMETERS[leave_n(1300) sp_prop(0.95,0,0.05) add_remove_n(1000) extCost(-0.4)] TRIGGER[]}
+
+{NAME[5_tending_S_14]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(1)&si(14)&reg_n(1500:9999)&reg_hDom_1(0:9)]FORCE[&program_track(0)|reg_hDom_1(2:9)]
+PARAMETERS[leave_n(1300) sp_prop(0.95,0,0.05) add_remove_n(1000) extCost(-0.4)] TRIGGER[]}
+
+# YOUNG GROWTH TENDING PINE
+
+{NAME[6_tending_P_26]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(2)&si(26)&reg_n(1500:9999)&reg_hDom_2(0:9)]FORCE[&program_track(0)|reg_hDom_2(0:9)]
+PARAMETERS[leave_n(1300) sp_prop(0.05,0.9,0.05) add_remove_n(1000) extCost(-0.4)] TRIGGER[]}
+
+{NAME[7_tending_P_23]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(2)&si(23)&reg_n(1500:9999)&reg_hDom_2(0:9)]FORCE[&program_track(0)|reg_hDom_2(0.5:9)]
+PARAMETERS[leave_n(1300) sp_prop(0.05,0.9,0.05) add_remove_n(1000) extCost(-0.4)] TRIGGER[]}
+
+{NAME[8_tending_P_20]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(2)&si(20)&reg_n(1500:9999)&reg_hDom_2(0:9)]FORCE[&program_track(0)|reg_hDom_2(1:9)]
+PARAMETERS[leave_n(1300) sp_prop(0.05,0.9,0.05) add_remove_n(1000) extCost(-0.4)] TRIGGER[]}
+
+{NAME[9_tending_P_17]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(2)&si(17)&reg_n(1500:9999)&reg_hDom_2(0:9)]FORCE[&program_track(0)|reg_hDom_2(1.5:9)]
+PARAMETERS[leave_n(1300) sp_prop(0.05,0.9,0.05) add_remove_n(1000) extCost(-0.4)] TRIGGER[]}
+
+{NAME[10_tending_P_14]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(2)&si(14)&reg_n(1500:9999)&reg_hDom_2(0:9)]FORCE[&program_track(0)|reg_hDom_2(2:9)]
+PARAMETERS[leave_n(1300) sp_prop(0.05,0.9,0.05) add_remove_n(1000) extCost(-0.4)] TRIGGER[]}
+
+# YOUNG GROWTH TENDING BIRCH
+
+{NAME[11_tending_B_26]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(3)&si(26)&reg_n(2200:9999)&reg_hDom_3(0:9)]FORCE[&program_track(0)|reg_hDom_3(0:9)]
+PARAMETERS[leave_n(2000) sp_prop(0.15,0.05,0.8) add_remove_n(500) extCost(-0.4)] TRIGGER[]}
+
+{NAME[12_tending_B_23]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(3)&si(23)&reg_n(2200:9999)&reg_hDom_3(0:9)]FORCE[&program_track(0)|reg_hDom_3(0.5:9)]
+PARAMETERS[leave_n(2000) sp_prop(0.15,0.05,0.8) add_remove_n(500) extCost(-0.4)] TRIGGER[]}
+
+{NAME[13_tending_B_20]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(3)&si(20)&reg_n(1700:9999)&reg_hDom_3(0:9)]FORCE[&program_track(0)|reg_hDom_3(1:9)]
+PARAMETERS[leave_n(1500) sp_prop(0.15,0.05,0.8) add_remove_n(500) extCost(-0.4)] TRIGGER[]}
+
+{NAME[14_tending_B_17]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(3)&si(17)&reg_n(1700:9999)&reg_hDom_3(0:9)]FORCE[&program_track(0)|reg_hDom_3(1.5:9)]
+PARAMETERS[leave_n(1500) sp_prop(0.1,0.1,0.8) add_remove_n(500) extCost(-0.4)] TRIGGER[]}
+
+{NAME[15_tending_B_14]TYPE[THINNING_YOUNG]SUBTYPE[MARCSMAN]
+REQUIRE[&domSp(3)&si(14)&reg_n(1700:9999)&reg_hDom_3(0:9)]FORCE[&program_track(0)|reg_hDom_3(2:9)]
+PARAMETERS[leave_n(1500) sp_prop(0.1,0.1,0.8) add_remove_n(500) extCost(-0.4)] TRIGGER[]}
+
+# HARVEST
+
+{NAME[16_harvest] TYPE[THINNING] SUBTYPE[HARVEST]
+REQUIRE[&age(50:999)&ba(0.1:999) &thinning_count(1) &reg_n(0) &program_track(1)] FORCE[&age(120:999)]
+PARAMETERS[ba(0) extPrice(0) extCost(0)] TRIGGER[]}
+
+{NAME[17_harvest] TYPE[THINNING] SUBTYPE[HARVEST]
+REQUIRE[&age(50:999)&ba(0.1:999) &reg_n(0) &program_track(0)] FORCE[]
+PARAMETERS[ba(0) extPrice(0) extCost(0)] TRIGGER[]}
+
+# THINNING 5000
+
+{NAME[thinning_5000] TYPE[THINNING] SUBTYPE[THINNING] 
+REQUIRE[&domSp(1) &hDom_1(12:20) &thinning_since(999) &reg_n(0) &program_track(0)] FORCE[] 
+PARAMETERS[ba(0.8) dr(0.95) extPrice(0) extCost(0)] TRIGGER[]}
+
+{NAME[thinning_5000] TYPE[THINNING] SUBTYPE[THINNING] 
+REQUIRE[&domSp(2) &hDom_2(12:20) &thinning_since(999) &reg_n(0) &program_track(0)] FORCE[] 
+PARAMETERS[ba(0.8) dr(0.95) extPrice(0) extCost(0)] TRIGGER[]}
